@@ -1,0 +1,32 @@
+.check{
+    background: url('img/checkbox.png') -15px ;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background-size: 200px;
+    cursor: pointer;
+    margin: 100px auto;
+    
+}
+/*.dos{
+    background: url( 'img/checkbox.png') -130px;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background-size: 200px;
+    
+}*/
+
+
+.caja{
+    display: none;
+    
+}
+
+
+.caja:checked+.check{
+    background-position: -130px;
+    
+}
+
+

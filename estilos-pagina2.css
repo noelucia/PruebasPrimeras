@@ -1,0 +1,33 @@
+.border-parrafo{
+    border: 1px solid red; 
+    padding: 20px;
+}
+
+.texto{
+    text-align: center;
+    width: 100%;
+    margin: auto
+}
+.columna1{
+    width: 50%;
+    float: left;
+    border-radius: 5px;
+
+}
+.columna2{
+    border: 2px solid black;
+
+}
+.redondo{
+    border-radius: 50%;
+    background-color: green;
+    line-height: 150px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: antiquewhite;
+    margin: 0px auto;
+
+}

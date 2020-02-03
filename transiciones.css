@@ -1,0 +1,12 @@
+.overley{
+width: 50vw;
+height: 50vh;
+background-color: rgb(180, 109, 231);
+opacity: 0;
+transition: all 1s ease-in;
+
+}
+ input:checked +.overley{
+opacity: 1 ;
+background-color: black;
+ }
